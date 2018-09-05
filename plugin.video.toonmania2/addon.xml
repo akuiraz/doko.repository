@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.toonmania2" name="Toonmania2" version="0.4.1" provider-name="doko, MetalKettle">
+<addon id="plugin.video.toonmania2" name="Toonmania2" version="0.4.2" provider-name="doko, MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
     <import addon="script.module.requests" />
@@ -11,7 +11,7 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Toonmania2</summary>
     <description lang="en">Watch cartoons and anime from [COLOR khaki][B]Animetoon[/B][/COLOR] (www.animetoon.org) and [COLOR khaki][B]Animeplus[/B][/COLOR] (www.animeplus.tv).[CR]Go pay them a visit![CR][CR]Add-on by doko.</description>
-    <news>[COLOR khaki][B]Toonmania2[/B][/COLOR] - Cartoons &amp; Anime[CR][CR][B]0.4.1:[/B][CR]- Cache improvements, uses less memory and disk space.[CR]This is my final version in terms of new features.[CR][CR][B]0.4.0:[/B][CR]- Added cache, code cleanup and fixes</news>
+    <news>[COLOR khaki][B]Toonmania2[/B][/COLOR] - Cartoons &amp; Anime[CR][CR][B]0.4.2:[/B][CR]- Additional provider resolve.[CR]- Other minor improvements[CR][CR][B]0.4.1:[/B][CR]- Cache improvements, uses less memory and disk space.</news>
     <disclaimer lang="en"></disclaimer>
     <platform>all</platform>
     <disclaimer lang="en">The authors of this addon do not host any of the content found or have any affiliation with the content providers or the websites that it scrapes information from.</disclaimer>
