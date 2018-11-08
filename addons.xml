@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="doko.repository" name="Doko Repository" version="0.1.44" provider-name="doko">
+    <addon id="doko.repository" name="Doko Repository" version="0.1.45" provider-name="doko">
         <extension point="xbmc.addon.repository" name="Doko Repository">
             <info compressed="false">https://raw.githubusercontent.com/doko-desuka/doko.repository/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/doko-desuka/doko.repository/master/addons.xml.md5</checksum>
@@ -15,7 +15,7 @@
     </addon>
 
 
-    <addon id="plugin.video.toonmania2" name="Toonmania2" version="0.5.0" provider-name="doko">
+    <addon id="plugin.video.toonmania2" name="Toonmania2" version="0.5.1" provider-name="doko, MetalKettle">
       <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.requests" />
@@ -31,9 +31,13 @@ Watch cartoons and anime from [COLOR khaki][B]Animetoon[/B][/COLOR] (www.animeto
 Go pay them a visit!
 
 Add-on by doko.
-    </description>
-    <news>
+        </description>
+        <news>
 [COLOR khaki][B]Toonmania2[/B][/COLOR] - Cartoons &amp; Anime
+
+[B]0.5.1:[/B]
+- New setting: Show Search Results Group.
+Lets you choose if you want to see a parent group item after a name search.
 
 [B]0.5.0:[/B]
 - New search mode: your Trakt lists.
@@ -42,13 +46,6 @@ Add-on by doko.
 [B]0.4.6:[/B]
 - Added Kodi Playlist support.
 (On episode lists press LEFT to show options sidebar, select Actions: Go To Playlist)
-
-[B]0.4.5:[/B]
-- Readded the "Autoplay" option in settings, turn it off to choose a provider
-- Added one-off cleanup service, it runs just once and deletes itself
-
-[B]0.4.4:[/B]
-- New smart cache, faster to load
         </news>
         <disclaimer lang="en"></disclaimer>
         <platform>all</platform>
