@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="doko.repository" name="Doko Repository" version="0.1.47" provider-name="doko">
+    <addon id="doko.repository" name="Doko Repository" version="0.1.48" provider-name="doko">
         <extension point="xbmc.addon.repository" name="Doko Repository">
             <info compressed="false">https://raw.githubusercontent.com/doko-desuka/doko.repository/master/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/doko-desuka/doko.repository/master/addons.xml.md5</checksum>
@@ -51,6 +51,22 @@
         <disclaimer lang="en"></disclaimer>
         <platform>all</platform>
       </extension>
+    </addon>
+    
+    
+    <addon id="plugin.program.pairem" name="Pair 'Em" version="0.1.0" provider-name="doko, jewbmx">
+        <requires>
+            <import addon="xbmc.python" version="2.25.0" />
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="default.py">
+            <provides>executable</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary>Open a web browser to video hoster pairing pages</summary>
+            <description>Open a web browser to video hoster pairing pages (Openload, Vev-io etc.)</description>
+            <news>Open a web browser to video hoster pairing pages (Openload, Vev-io etc.)</news>
+        </extension>
     </addon>
 
 
